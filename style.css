@@ -259,8 +259,8 @@ body {
         padding: 0;
         width: -moz-fit-content;
         width: fit-content;
-        width: 700px;
-        min-height: 500px;
+        width: clamp(600px, 50%, 55rem);
+        min-height: 450px;
         display: flex;
         flex-direction: row;
         align-items: stretch;
@@ -279,9 +279,16 @@ body {
 
     .div-screen {
         margin-block-start: 1rem;
-        margin-block-end: 0;
         max-width: 500px;
         width: 50%;
-        flex-shrink: 0;
     }
+
+    .div-screen h2 {
+        margin-block-start: 1rem;
+    }
+
+    .div-scores {
+        gap: 1.5rem;
+    }
+
 }
