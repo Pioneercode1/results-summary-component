@@ -38,12 +38,14 @@ body {
     font-weight: 400;
     font-style: normal;
     background-color: var(--dark-gray-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .results-summary-component {
     width: clamp(300px, 50%, 28rem);
     min-height: 650px;
-    margin: 2rem auto;
     background-color: var(--white);
 }
 
